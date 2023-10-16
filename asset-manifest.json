@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/E-commerce-Home/static/css/main.8e0d4734.css",
+    "main.js": "/E-commerce-Home/static/js/main.f48ef745.js",
+    "static/js/787.d9899ebf.chunk.js": "/E-commerce-Home/static/js/787.d9899ebf.chunk.js",
+    "static/media/amazon_logo.png": "/E-commerce-Home/static/media/amazon_logo.5ec6844ddb6d618d8fee.png",
+    "static/media/hero_image.jpg": "/E-commerce-Home/static/media/hero_image.620045ce353b8e61f52c.jpg",
+    "static/media/box7_image.jpg": "/E-commerce-Home/static/media/box7_image.e70baeea25d9ce00f6dc.jpg",
+    "static/media/box6_image.jpg": "/E-commerce-Home/static/media/box6_image.2ba012bf94fd8ea0b64c.jpg",
+    "static/media/box5_image.jpg": "/E-commerce-Home/static/media/box5_image.1870128f1a9518ad53f3.jpg",
+    "static/media/box2_image.jpg": "/E-commerce-Home/static/media/box2_image.70f2c22377f898c5297d.jpg",
+    "static/media/box8_image.jpg": "/E-commerce-Home/static/media/box8_image.bbafb3dd7a6a6ed29916.jpg",
+    "static/media/box4_image.jpg": "/E-commerce-Home/static/media/box4_image.34320117541b088734a2.jpg",
+    "static/media/box1_image.jpg": "/E-commerce-Home/static/media/box1_image.670c0c9b0bb020a900f1.jpg",
+    "index.html": "/E-commerce-Home/index.html",
+    "main.8e0d4734.css.map": "/E-commerce-Home/static/css/main.8e0d4734.css.map",
+    "main.f48ef745.js.map": "/E-commerce-Home/static/js/main.f48ef745.js.map",
+    "787.d9899ebf.chunk.js.map": "/E-commerce-Home/static/js/787.d9899ebf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e0d4734.css",
+    "static/js/main.f48ef745.js"
+  ]
+}
