@@ -1,0 +1,124 @@
+.panel{
+    width: 100%;
+    height: fit-content;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: aliceblue;
+
+
+
+    .OLC{
+        padding: 10px;
+        cursor: pointer;
+
+        &:hover{
+            background-color: #5e769154;
+            border-radius: 5px;
+        }
+    }
+
+
+    &.panelFill,.panelFill{
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &.panelAll,.panelAll{
+        width: fit-content;
+        width: 10vw;
+        font-size: large;
+        cursor: pointer;
+    }
+    &.panelOps,.panelOps{
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+
+        
+    }
+    &.panelDeals,.panelDeals{
+        width: fit-content;
+        height: fit-content;
+        margin-right: 50px;
+        >b{
+            width: fit-content;
+            height: fit-content;
+            font-size: large;
+            cursor: pointer;
+        }
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 900px){
+    .panel{
+        width: 100%;
+        height: fit-content;
+        background-color: #222f3d;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: aliceblue;
+    
+    
+    
+        .OLC{
+            padding: 10px;
+            cursor: pointer;
+    
+            &:hover{
+                background-color: #5e769154;
+                border-radius: 5px;
+            }
+        }
+    
+    
+        &.panelFill,.panelFill{
+            width: fit-content;
+            height: fit-content;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        &.panelAll,.panelAll{
+            width: fit-content;
+            width: 10vw;
+            font-size: large;
+            cursor: pointer;
+        }
+        &.panelOps,.panelOps{
+            width: fit-content;
+            height: fit-content;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+    
+            
+        }
+        &.panelDeals,.panelDeals{
+            width: fit-content;
+            height: fit-content;
+            margin: auto;
+            /* margin-right: 50px; */
+            >b{
+                width: fit-content;
+                height: fit-content;
+                font-size: large;
+                cursor: pointer;
+            }
+        }
+    }
+}

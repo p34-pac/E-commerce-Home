@@ -1,0 +1,134 @@
+.heroSection{
+    width: 100%;
+    height: fit-content;
+    position: relative;
+     
+    .hero-image{
+        width: 100%;
+        height: fit-content;
+
+        >img{
+            width: 100%;
+        }
+    }
+    .hero-msg{
+        width: 79%;
+        height: fit-content;
+        position: absolute;
+        padding: 1%;
+        bottom: 50px;
+        background-color: rgba(240, 248, 255, 0.342);
+        border-radius: 20px;
+        left: 10%;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        >b{
+            font-weight: normal;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-right: 5px;
+        }
+        >a{
+            color: rgb(32, 32, 32);
+            font-weight: bolder;
+            cursor: pointer;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 900px){
+    .heroSection{
+        width: 100%;
+        height: fit-content;
+        position: relative;
+         
+        .hero-image{
+            width: 100%;
+            height: fit-content;
+    
+            >img{
+                width: 100%;
+            }
+        }
+        .hero-msg{
+            width: 90%;
+            height: fit-content;
+            position: absolute;
+            padding: 1%;
+            bottom: 10px;
+            background-color: rgba(240, 248, 255, 0.342);
+            border-radius: 10px;
+            left: 5%;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            >b{
+                font-weight: normal;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin-right: 5px;
+            }
+            >a{
+                color: rgb(32, 32, 32);
+                font-weight: bolder;
+                cursor: pointer;
+    
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 900px){
+    .heroSection{
+        width: 100%;
+        height: fit-content;
+        position: relative;
+         
+        .hero-image{
+            width: 100%;
+            height: fit-content;
+    
+            >img{
+                width: 100%;
+            }
+        }
+        .hero-msg{
+            width: 79%;
+            height: fit-content;
+            position: absolute;
+            padding: 1%;
+            bottom: 30px;
+            background-color: rgba(240, 248, 255, 0.342);
+            border-radius: 10px;
+            left: 10%;
+            font-size: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            >b{
+                font-weight: normal;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin-right: 5px;
+            }
+            >a{
+                color: rgb(32, 32, 32);
+                font-weight: bolder;
+                cursor: pointer;
+    
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
